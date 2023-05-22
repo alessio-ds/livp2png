@@ -19,9 +19,9 @@ Heres the direct [Download link](https://github.com/alessio-ds/livp2png/releases
 ### Python
 First of all, you should have any program which can run the command ```tar -xf {filename}``` (such as WinRar), as livp files are basically zips containing HEIC and MOV files.
 
-Then, simply install PIL
+Then, simply install Pillow (PIL)
 ```
-pip install PIL
+pip install pillow
 ```
 Then, put the .livp files in the same repo folder and run
 ```
