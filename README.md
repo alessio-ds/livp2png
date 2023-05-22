@@ -18,6 +18,7 @@ Then, simply put the .livp files in the same folder which you decided to put liv
 Heres the direct [Download link](https://github.com/alessio-ds/livp2png/releases/download/v1.0/livp2png.exe).
 ### Python
 First of all, you should have any program which can run the command ```tar -xf {filename}``` (such as WinRar), as livp files are basically zips containing HEIC and MOV files.
+NOTE: on linux you need ```unzip```
 
 Then, simply install Pillow (PIL) and pillow_heif
 ```
