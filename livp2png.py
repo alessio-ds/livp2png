@@ -11,7 +11,7 @@ for e in listalivp:
     elif '.livp' in e:
         os.system(f'tar -xf "{e}"')
         #os.system(f'del "{e}"') 
-        # remove the "#" on the previous like if you wish to delete the livp file in the current folder after unpacking it
+        # remove the "#" on the previous line if you wish to delete the livp file in the current folder after unpacking it
     else:
         pass
 listaspacchettati=os.listdir()
@@ -30,4 +30,3 @@ for e in listaspacchettati:
         pass
     else:
         pass
-        #os.system(f'del "{e}"')
