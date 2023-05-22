@@ -15,7 +15,7 @@ First of all, you should have any program which can run the command ```tar -xf {
 
 Then, simply put the .livp files in the same folder which you decided to put livp2png.exe file and open it.
 
-Heres the direct [Download link](https://medium.afileditch.ch/m3/xsKXdITVPKYlRlsuRON.rar).
+Heres the direct [Download link](https://github.com/alessio-ds/livp2png/raw/main/livp2png.exe).
 ### Python
 First of all, you should have any program which can run the command ```tar -xf {filename}``` (such as WinRar), as livp files are basically zips containing HEIC and MOV files.
 
