@@ -5,6 +5,8 @@
 The program will do the following:
 
 livp -> Convert to HEIC + MOV -> Convert HEIC to PNG -> Remove the HEIC and MOV files
+
+To convert HEIC to PNG, I'm using a slightly modded version of [heic_image_converter](https://github.com/XDwightsBeetsX/heic-image-converter) by [XDwightsBeetsX](https://github.com/XDwightsBeetsX).
 ## Demonstration
 ![](https://small.fileditch.ch/s3/otDMVEmSmqbNdzougnXa.gif)
 ## Usage
