@@ -1,5 +1,4 @@
 import os
-from heic_image_converter.Converter import Converter as converti
 from platform import system
 from subprocess import call
 
@@ -17,6 +16,12 @@ else:
 listalivp=os.listdir()
 print(listalivp)
 for e in listalivp:
+    if '.livp' in e:
+        os.system(f'tar -xf "{e}"') if system() == 'Windows' else os.system(f'unzip -q "{e}"')
+        os.system(f'del "{e}"') if system() == 'Windows' else os.system(f'rm "{e}"')
+    else:
+        pass
+for e in listalivp:
     if '.py' in e:
         pass
     elif '.' not in e:
@@ -28,18 +33,10 @@ for e in listalivp:
     else:
         pass
 listaspacchettati=os.listdir()
-percorso=os.getcwd()
-ImgConverter = converti(percorso)
-ImgConverter.convert_files()
+
+os.system(f'python convert.py {os.getcwd()}')
 for e in listaspacchettati:
     if '.mov' in e or ".heic" in e:
-        pass
         os.system(f'del "{e}"') if system() == 'Windows' else os.system(f'rm "{e}"')
-    elif '.py' in e:
-        pass
-    elif '.' not in e:
-        pass
-    elif 'png' in e:
-        pass
     else:
         pass
