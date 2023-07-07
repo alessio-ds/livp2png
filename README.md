@@ -8,7 +8,8 @@ livp -> Convert to HEIC + MOV -> Convert HEIC to PNG -> Remove the HEIC and MOV 
 
 To convert HEIC to PNG, I'm using a slightly modded version of [heic_image_converter](https://github.com/XDwightsBeetsX/heic-image-converter) by [XDwightsBeetsX](https://github.com/XDwightsBeetsX).
 ## Demonstration
-![](https://small.fileditch.ch/s3/otDMVEmSmqbNdzougnXa.gif)
+![](https://too.lewd.se/14d7fa09a7f1_firefox_bWWk5vsfi5.gif)
+
 ## Usage
 ### Windows executable file
 First of all, you should have any program which can run the command ```tar -xf {filename}``` (such as WinRar), as livp files are basically zips containing HEIC and MOV files.
