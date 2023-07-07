@@ -21,17 +21,7 @@ for e in listalivp:
         os.system(f'del "{e}"') if system() == 'Windows' else os.system(f'rm "{e}"')
     else:
         pass
-for e in listalivp:
-    if '.py' in e:
-        pass
-    elif '.' not in e:
-        pass
-    elif '.livp' in e:
-        os.system(f'tar -xf "{e}"') if system() == 'Windows' else os.system(f'unzip -q "{e}"')
-        #os.system(f'del "{e}"') 
-        # remove the "#" on the previous line if you wish to delete the livp file in the current folder after unpacking it
-    else:
-        pass
+
 listaspacchettati=os.listdir()
 
 os.system(f'python convert.py {os.getcwd()}')
