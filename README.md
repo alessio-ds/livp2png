@@ -8,7 +8,8 @@ livp -> Convert to HEIC + MOV -> Convert HEIC to PNG -> Remove the HEIC and MOV 
 
 To convert HEIC to PNG, I'm using a slightly modded version of [heic_image_converter](https://github.com/XDwightsBeetsX/heic-image-converter) by [XDwightsBeetsX](https://github.com/XDwightsBeetsX).
 ## Demonstration
-![](https://too.lewd.se/14d7fa09a7f1_firefox_bWWk5vsfi5.gif)
+![](https://imgur.com/Kabh3Hb)
+https://imgur.com/Kabh3Hb
 
 ## Usage
 ### Windows executable file
